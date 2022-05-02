@@ -1,0 +1,46 @@
+{
+    "name": "h-ui-react",
+    "version": "1.0.0",
+    "description": "components react",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "pnpm -C example dev"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sao-lang/h-ui-react.git"
+    },
+    "keywords": [
+        "components",
+        "ui",
+        "react"
+    ],
+    "author": "huangpu",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/sao-lang/h-ui-react/issues"
+    },
+    "homepage": "https://github.com/sao-lang/h-ui-react#readme",
+    "devDependencies": {
+        "@commitlint/cli": "^16.2.4",
+        "@commitlint/config-conventional": "^16.2.4",
+        "cz-customizable": "^6.3.0",
+        "prettier": "^2.6.2",
+        "sass": "^1.43.3",
+        "typescript": "^4.4.4"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-customizable"
+        }
+    },
+    "dependencies": {
+        "@h-ui-react/components": "workspace:^1.0.0",
+        "@h-ui-react/styles": "workspace:^1.0.0",
+        "@h-ui-react/utils": "workspace:^1.0.0",
+        "@icon-park/react": "^1.3.5",
+        "react": "^18.1.0",
+        "react-dom": "^18.1.0"
+    }
+}
