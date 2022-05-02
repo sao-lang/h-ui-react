@@ -7,5 +7,6 @@ export interface IconIProps {
     strokeLinecap?: 'butt' | 'round' | 'square';
     strokeLinejoin?: 'miter' | 'round' | 'bevel';
     strokeWidth?: number;
-    type: IconType;
+    type?: IconType | '';
+    loading?: boolean;
 }

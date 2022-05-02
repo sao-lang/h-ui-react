@@ -6,10 +6,11 @@ const App = () => {
             <Icon
                 type="LoadingThree"
                 theme="multi-color"
-                size="24"
+                size={24}
                 fill={['#f61689', '#3d1e44', '#415294', '#3dda87']}
                 strokeLinecap="butt"
             />
+            <Icon loading />
         </div>
     );
 };
