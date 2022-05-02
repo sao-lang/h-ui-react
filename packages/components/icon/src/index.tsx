@@ -21,7 +21,7 @@ const Icon = (props: IconIProps) => {
                 style={{ width: size, height: size }}
             >
                 <IconPark
-                    type={loading ? 'loading-four' : type}
+                    type={loading ? 'LoadingFour' : type}
                     theme={theme}
                     spin={spin}
                     size={size}
