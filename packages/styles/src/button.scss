@@ -90,6 +90,12 @@ $--shadow-key-ambient-opacity: rgba(0, 0, 0, .12);
                 $font-size: map-get($font-sizes, $s);
                 $border-radius: map-get($border-radiuses, $s);
 
+                .h-button__inner {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
                 &.is-#{$s} {
                     height: $height;
                     padding: $padding;

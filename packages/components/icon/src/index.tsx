@@ -34,5 +34,5 @@ const Icon = (props: IconIProps) => {
         )
     );
 };
-
+Icon.displayName = 'Icon';
 export default Icon;
